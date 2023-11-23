@@ -8,7 +8,7 @@ function getComputerChoice() {
   else return "scissors";
 }
 
-for (let i = 0; i < 50; i++) {
-  let pc = getComputerChoice();
-  console.log(pc);
+function getPlayerChoice() {
+  return prompt("Rock Paper or Scissors?").toLowerCase();
 }
+
